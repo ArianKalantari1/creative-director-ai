@@ -600,18 +600,36 @@ The highest-risk cost assumption is the old "analyse 347 creatives" onboarding s
 
 The original 16-week plan compressed too many uncertain systems into too little time. A realistic plan separates a validation spike from a commercial pilot.
 
-### Phase A: Reels Validation Spike, 6-8 Weeks
+### Phase A: Reels Validation Spike, 3-5 Weeks
+
+**Corrected 2026-09-10.** The original 6-8 week estimate was written without knowledge of
+`ArianKalantari1/senpai-reel`, a working pipeline that already implements most of the
+deterministic stack. See `docs/existing-systems/senpai-reel-inventory.md` for the full inventory.
+
+Already built, and not to be rebuilt:
+
+| Capability | Where |
+|---|---|
+| Apify scrape, download, ffmpeg audio extraction | `collection/`, `processing/` |
+| ASR with word-level timestamps | Deepgram Nova-2, `transcript_words` table |
+| Engagement labels (likes, views, comments, duration) | `posts` table |
+| Semantic extraction, embeddings, search | `analysis/` |
+| **Baseline engagement model** | `analysis/engagement_predictor.py` — RandomForest over metadata |
+
+The baseline arm of the validation experiment therefore already exists. What remains:
 
 | Time | Outcome | Gate |
 |---|---|---|
-| Week 1 | Define Creative DNA v0 schema and labels | Schema reviewed by one creative strategist. |
-| Week 2 | Build deterministic extraction: ffprobe, scenes, ASR, OCR | Pipeline runs on 20 short videos. |
-| Week 3 | Produce human review packets | Reviewer can inspect observations and interpretations separately. |
-| Week 4 | Human-label 20 records | Stop if key fields are not trusted by reviewer. |
-| Weeks 5-6 | Build baseline vs Creative DNA engagement model | Held-out Creative DNA model must beat baseline by pre-registered margin. |
-| Weeks 7-8 | Error analysis and schema revision | Decide whether paid-ad product proceeds, narrows, or pauses. |
+| Week 1 | Define Creative DNA v0 schema, observation/interpretation split, enumerated vocabularies | Schema reviewed by one creative strategist. |
+| Week 1-2 | Add the two missing extractors: scene/shot detection and OCR timeline | Both run over the existing downloaded corpus. |
+| Week 2-3 | Time-alignment fusion and the structural interpretation pass | Fused view is independently inspectable. Budget real effort here — reconciling three tools' notions of time is the step most likely to overrun. |
+| Week 3 | Human-label 20 records, attribute every disagreement to a layer | **Hard gate.** Stop if key fields are not trusted by the reviewer. Bad extraction produces a clean-looking null result that cannot be distinguished from a failed premise. |
+| Week 4-5 | Baseline vs Creative DNA comparison, split by account | Held-out Creative DNA model must beat the metadata baseline by a pre-registered margin. |
+| Week 5 | Error analysis, schema revision, written verdict | Decide whether the paid-ad product proceeds, narrows, or pauses. A null result closes Phase A successfully. |
 
 No VLM, object detection, render pipeline, or paid-ad production system is required before this gate.
+
+Tracked as issues #1-#7 in this repository.
 
 ### Phase B: Agency Research MVP, 8-12 Additional Weeks
 
