@@ -1,7 +1,7 @@
 # Existing system inventory — `senpai-reel`
 
-**Repository:** https://github.com/Arian-MU/senpai-reel (public, readable by any agent)
-**Owner account:** `Arian-MU` (separate from `ArianKalantari1` — see *Ownership* below)
+**Repository:** https://github.com/ArianKalantari1/senpai-reel (public, readable by any agent)
+**Owner account:** `ArianKalantari1` (transferred from `Arian-MU` on 2026-09-10)
 **Surveyed:** 2026-09-10, at commit `3a79832` (2026-04-06)
 **Why this file exists:** agents have no memory between sessions. This is the shared record of
 what already exists, so no one re-derives it or plans work that is already done.
@@ -81,10 +81,9 @@ needs review before any of this feeds a paid product. The research/commercial ac
 
 ## Ownership
 
-`senpai-reel` sits under `Arian-MU` while `creative-director-ai` sits under `ArianKalantari1`.
-Split ownership means tooling scoped to one account cannot see the other. Recommended fix:
-transfer `senpai-reel` to `ArianKalantari1` (Settings → Danger Zone → Transfer ownership).
-The repo is public, so reading works regardless — but issues, PRs and write access do not.
+Transferred from `Arian-MU` to `ArianKalantari1` on 2026-09-10, so both repositories now sit
+under one owner. Issues, PRs and write access work across them; agent tooling scoped to the
+account can see both. Old `Arian-MU/senpai-reel` links still redirect, but prefer the new URL.
 
 ## Correction to the v2 research report
 
