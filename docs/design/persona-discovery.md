@@ -96,6 +96,37 @@ This project already has a working instance of the pattern: `ari-facts.md` holds
 with a DO NOT SAY list, and unverified rows block a claim from shipping. That is an evidence
 inventory with a provenance gate. The generalisation is to make every persona have one.
 
+### It accretes — it is not elicited in one sitting
+
+**`ari-facts.md` was not written up front.** It accumulated from review: drafts generated,
+then corrected — *"I would not say that"*, *"I would put it this way instead"*, *"that claim is
+not mine to make"*. Approvals, rejections and rewrites, collected over many rounds, became the
+file.
+
+That changes the design. The interview is a **seed**, not the mechanism. The mechanism is the
+loop:
+
+```
+propose  →  person reacts  →  correction is recorded  →  next proposal is closer
+```
+
+Identity is the fixed point that emerges, not an input collected at the start. Which is also
+the honest account of how anyone finds a voice: not by introspection, but by saying things and
+noticing which ones were not quite right.
+
+Two consequences worth building for:
+
+- **Corrections are the primary data, and they are richer than approvals.** *"I would rather
+  say X"* carries the substitution, not just the rejection. Store the replacement alongside what
+  it replaced, or the most useful signal is thrown away.
+- **A persona is never finished, so there is no state where the interview is "done".** The UI
+  should not present identity as a form to complete. It should present it as something that
+  sharpens each time you correct it, and show that it is sharpening.
+
+This partly answers open question 3 below: evidence is verified by accumulated review rather
+than by an upfront gate. The gate is what stops an *unreviewed* claim shipping; the review is
+what puts claims in the inventory in the first place.
+
 ## Flow
 
 ```
@@ -181,9 +212,11 @@ to define what "does not fit" means, which is another argument for pinning.
 2. **Does rejection get recorded?** Rejecting a proposed topic is information about identity.
    Storing rejections would improve later proposals — but it is also a surveillance-shaped
    feature, and personas are personal. Probably opt-in.
-3. **How is evidence verified?** `ari-facts.md` blocks unverified claims from shipping. Does a
-   generalised inventory need the same gate, or is self-assertion enough when the person is the
-   only reader?
+3. **How many rounds until a persona stabilises?** If identity is the fixed point of a
+   correction loop, there is some number of review cycles after which proposals stop being
+   corrected much. Nobody knows what it is. It is measurable — track correction rate per round —
+   and worth measuring, because it tells a new user how much work is ahead of them before the
+   tool earns its keep.
 4. **Sample size for step 2.** A few hundred reels is a guess. Worth measuring at what point the
    proposed topics stop changing as more data arrives.
 5. **Multiple personas, one corpus.** Two personas in overlapping niches may watch the same
@@ -197,6 +230,27 @@ this is about what the tool is *for*, not who may pay for it.
 
 It does not replace judgement. The system proposes; the person decides. A tool that decided
 identity on someone's behalf would be both wrong and unpleasant.
+
+## Later, not now: learning the labels instead of assigning them
+
+Topic assignment is currently one LLM call per transcript against a fixed vocabulary. That is
+classification, and it is the simplest thing that works.
+
+Once a persona has accumulated enough corrections, a different approach becomes available:
+treat the accumulated approvals, rejections and substitutions as **weak supervision** — noisy,
+cheap labels that a model learns from in aggregate rather than trusting individually. The
+literature calls this programmatic or weak supervision; labelling functions vote, their
+disagreements are modelled, and a label model resolves them.
+
+Why it is interesting here: the corrections already exist as a by-product of normal use, so the
+training signal is free. And it inverts the current relationship — instead of the person
+conforming to a taxonomy, the taxonomy is learned from what the person keeps saying.
+
+**Explicitly out of scope for this proposal**, for two reasons. It needs a corpus of corrections
+that does not exist yet, and it is only worth doing once the simple version has proven the loop
+is useful at all. Noted here so the data model does not foreclose it: storing corrections with
+their substitutions, rather than a bare accept/reject flag, is what keeps that door open, and it
+costs nothing to do now.
 
 ---
 
