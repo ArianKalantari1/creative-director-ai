@@ -60,7 +60,7 @@ instructed to capture competitor phrasing verbatim, the generation prompt prefer
 verbatim field over the abstracted one, and no generation prompt contains any instruction
 against reusing it.
 
-- [ ] Run `tools/audit_reference_leakage.py` against the real database for a measured rate
+- [ ] Run `tools/audit_reference_leakage.py` in senpai-reel against the real database for a measured rate
 - [ ] Implement the #17 fix (prefer `claim`, add non-reuse instruction, add the n-gram gate)
 - [ ] Re-run the audit and confirm it comes back clean
 - [ ] Keep the audit as a test so it cannot regress silently
