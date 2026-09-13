@@ -168,19 +168,141 @@ make; it tells you which numbers to distrust.
 
 ---
 
+### C7 — Double Jeopardy: you cannot grow on loyalty
+
+**Loyalty is largely a predictable function of market share. Smaller brands suffer twice — fewer buyers, who are also slightly less loyal.**
+
+| | |
+|---|---|
+| Source | *The Double Jeopardy Law in B2B shows the way to grow* |
+| Authors | Jenni Romaniuk, John Dawes, Sahar Faghidno |
+| Date | May 2021 |
+| What was measured | Evidence across a range of B2B categories, countries and loyalty metrics. First discovered in the 1960s (McPhee 1963) and replicated in packaged goods, retail banking, insurance, luxury, political voting, car buying, and newer categories like music streaming and ride-share. |
+| Evidence strength | **The strongest form of evidence in this file** — a pattern replicated across decades, categories and countries. This is what "law" means in the Ehrenberg-Bass sense: an observed regularity, not a theory. |
+| Applies to small business | **Yes, and it is the least comfortable claim here.** It says a small brand's lower loyalty is *normal*, not a failure of relationship-building. |
+| Applies to organic social | The law is about purchase behaviour, not content. It sets the goal (more buyers) without saying anything about the channel. |
+
+**The strategic consequence, stated plainly by the authors:** it is not possible to sustainably grow by focusing on loyalty alone. Growth means more customers in any time period.
+
+**What this rules out:** loyalty campaigns as a growth strategy. The paper frames it as what to "stop worrying about / wasting time on."
+
+---
+
+### C8 — You compete with the biggest brands, whatever your positioning
+
+**Brands share customers with all other brands in proportion to those brands' size — the Duplication of Purchase law.**
+
+| | |
+|---|---|
+| Source | *How do B2B brands compete?* |
+| Author | Prof. Jenni Romaniuk |
+| Date | May 2021 |
+| What was measured | US business insurance across 16 products (Ehrenberg-Bass data, 2019) — sharing declined in line with penetration at a **93% correlation**. Replicated in B2B aviation fuel contracts (Ehrenberg & Uncles 1990) and UK business banking defection/acquisition over 12 months (2019). |
+| Evidence strength | **Measured, multi-category, with a stated correlation.** Originally established in television viewing (Ehrenberg & Goodhardt 1969). |
+| Applies to small business | **Yes**, and it has a direct practical instruction (below). |
+| Applies to organic social | Not tested. |
+
+**Two things follow that are immediately usable:**
+
+1. **Your future customers are currently customers of bigger brands.** So they already think more about a big competitor and notice its marketing more. The paper's conclusion: strong, distinctive branding in *all* activity is needed to overcome that attention bias.
+
+2. **Stop watching the small look-alike competitor.** The paper is explicit — do not get distracted by smaller competitors who resemble you, unless you have evidence of *excess* customer sharing beyond what their market share predicts. Marketing folklore about differentiation makes this paranoia feel rational; the data says it usually is not.
+
+---
+
+### C9 — Going dark: the numbers, and the contradiction inside them
+
+**Brands that stopped advertising for a year or more saw sales fall on average 16% after one year and 25% after two.**
+
+| | |
+|---|---|
+| Source | *What happens when brands stop advertising?* |
+| Authors | Adam Gelzinis, Rachel Kennedy, Virginia Beal, Nicole Hartnett, Byron Sharp |
+| Date | Released to sponsors 2018; later published in the *Journal of Advertising Research*; opened publicly |
+| What was measured | Media spend and volume sales for **70 competitive brands in one Australian consumer goods category over 20+ years**, yielding 57 cases of a brand cutting all mass media for a year or longer (34 continued to a second year). |
+| Evidence strength | **Single study, single category, single country — and the paper says so**: "Further research is underway to document the generalisability of these findings beyond this single study." Peer-reviewed, but do not present 16% as a general law. |
+| Applies to small business | **Yes, and worse.** Small brands typically suffered greater declines than big ones. Big *growing* brands often kept growing for one to two years after stopping; for small growing brands the trend reversed quickly. |
+| Applies to organic social | Not tested. This is paid mass media. |
+
+**The contradiction, which is in the same paper and must travel with the number:** over 150 split-cable tests from the early 1990s to mid-2000s found that **just over half showed no significant sales difference** within a year of stopping TV advertising. The paper's own reading: roughly a 50/50 chance that stopping has no effect inside twelve months, and stability for a year or so is common.
+
+So the honest version is **not** "stop advertising and lose 16%". It is: *there may be a safe period of about a year, after which decline becomes likely, and the smaller and more recently-growing you are, the less safe that period is.*
+
+Anyone quoting the 16% without the 50/50 finding is misrepresenting the source.
+
+---
+
+### C10 — Brand purpose: almost nobody knows what your purpose is
+
+**Across 14 brands held up as exemplars of purpose-led strategy, average consumer awareness of their stated purpose was 18% — and genuine awareness rarely exceeds 10%.**
+
+| | |
+|---|---|
+| Source | *Brand Purpose… Are consumers aware to care?* |
+| Authors | Victoria Tait, Dr Virginia Beal, Prof. John Dawes, Prof. Byron Sharp |
+| Date | ~2025 |
+| What was measured | Surveys in the **US, UK and Australia**, covering 14 brands widely regarded as purpose exemplars. |
+| Evidence strength | **Measured, and unusually well-controlled** — see the guessing check below. |
+| Applies to small business | **Yes, and it saves you money.** If best-in-class purpose brands cannot get past ~10% genuine awareness, a small business will not. |
+| Applies to organic social | Not tested, but the finding is about awareness of a message, which is what content is for. |
+
+**Why this row is more trustworthy than most:** the researchers included **dummy purpose attributes** to measure guessing. 4% of UK and 9% of US respondents agreed that Patagonia *"advocates for neuroscience led literacy"* — a thing that does not exist. That implies a guessing rate of roughly 9 percentage points, so the 18% headline is a best case and real awareness rarely clears 10%.
+
+The one exception was Nike (32% UK, 52% US for "promotes diversity and inclusion in sport"), which the authors attribute partly to Nike's very high penetration — **bigger brands score higher on any image perception**.
+
+**The cost argument, which is the actionable half:** investing in purpose awareness comes at the expense of building other memory associations or making the brand easier to buy.
+
+**Worth reading for its own sake:** the lead researcher opens with a disclaimer that she chose the topic *because* she believed in purpose-led brands and shops that way herself — and followed the evidence against her own expectation. That is the standard this knowledge layer should hold itself to.
+
+---
+
+### C11 — Category Entry Points are the mechanism
+
+**Mental availability is built by linking your brand to the cues buyers actually use when a buying situation arises.**
+
+| | |
+|---|---|
+| Source | *Category Entry Points in a Business-to-Business (B2B) world* |
+| Author | Prof. Jenni Romaniuk |
+| Date | July 2022 |
+| What was measured | A framework paper — how to identify, prioritise, build and measure CEPs — building on the Double Jeopardy evidence rather than presenting new measurements. |
+| Evidence strength | **Method, not a finding.** Cite it for *how to do the work*, not as proof of anything. |
+| Applies to small business | Yes — this is the most directly operational document in the set. |
+| Applies to organic social | Plausibly the strongest transfer of anything here: a CEP is a buying situation, and content can be built around situations. Untested. |
+
+CEPs are the cues a buyer's memory reaches for in a buying situation — internal (motives, emotions) and external (location, time of day). Every situation is unique, but recurring themes exist, and those are the CEPs. They determine which brands are mentally available at the moment the category is entered, i.e. the initial "go to" list.
+
+**This is where C1 connects to practice.** C1 says advertising works by building memory links that activate later; C11 is the method for deciding *which* links, and how to measure them over time.
+
+---
+
+### C12 — Physical availability in B2B is a marketing problem
+
+**Being easy to find is a growth lever equal to being easy to mind, and in B2B it lives in channels marketing usually does not control.**
+
+| | |
+|---|---|
+| Source | *Easy to Find: Being Where B2B Buying Happens* |
+| Authors | Magda Nenycz-Thiel & Jenni Romaniuk |
+| Date | November 2025 |
+| What was measured | A framework paper. The supplied PDF is largely summary and framing. |
+| Evidence strength | **Method and argument**, resting on the Double Jeopardy body of evidence. |
+| Applies to small business | Yes, though the specific channels named (internal sales staff, third-party distributors, trade shows) are enterprise-shaped. |
+| Applies to organic social | Indirectly — social is arguably a physical-availability channel as much as a mental one. Untested. |
+
+The authors frame the report as a "rallying cry" for B2B marketers to have input into areas usually owned by sales, product, engineering or IT — because those areas determine whether a brand can actually be found and bought.
+
+---
+
 ## What is NOT here yet
 
-Three supplied PDFs are not yet extracted — the long ones, where the findings are
-buried deeper than an abstract:
+All eleven supplied PDFs are now extracted. What remains unread is the **substance of
+C5** — the supplied *How B2B Brands Grow* PDF was front matter only, and the full report
+is the single most valuable thing still missing.
 
-- *The Double Jeopardy Law in B2B shows the way to grow* (18pp)
-- *Easy to Find: Being Where B2B Buying Happens* (18pp)
-- *What happens when brands stop advertising?* (13pp)
-- *Brand Purpose: Are consumers aware to care?* (15pp)
-
-The last two are the most interesting for Ari's own positioning, because "what happens
-when you go dark" and "does brand purpose land" are both questions small businesses ask
-out loud.
+Two papers are framework documents rather than findings (C11, C12). Their deeper
+sections — how to actually identify and prioritise CEPs, and the physical availability
+framework — are worth a second pass when there is a reason to use them.
 
 ## Standing caveat
 
