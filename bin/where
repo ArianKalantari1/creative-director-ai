@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Where are we? Computed fresh — nothing here is maintained by hand.
+set -uo pipefail
+OWNER=ArianKalantari1
+gh_api() { curl -sS -H "Authorization: Bearer ${GITHUB_TOKEN:-$GH_TOKEN}" \
+  -H "Accept: application/vnd.github+json" "https://api.github.com/$1"; }
+
+printf '\n\033[1mOPEN PRs\033[0m\n'
+for r in senpai-reel creative-director-ai; do
+  gh_api "repos/$OWNER/$r/pulls?state=open&per_page=20" \
+  | jq -r --arg r "$r" 'if length==0 then "  \($r): none" else .[] |
+      "  \($r) #\(.number)  \(if .draft then "[draft] " else "" end)\(.title)" end'
+done
+
+printf '\n\033[1mOPEN ISSUES\033[0m (creative-director-ai)\n'
+gh_api "repos/$OWNER/creative-director-ai/issues?state=open&per_page=40" \
+| jq -r '.[] | select(.pull_request==null) | "  #\(.number)  \(.title)"'
+
+printf '\n\033[1mRECENT ON senpai-reel main\033[0m\n'
+gh_api "repos/$OWNER/senpai-reel/commits?per_page=6" \
+| jq -r '.[] | "  \(.sha[0:7])  \(.commit.message | split("\n")[0])"'
+
+printf '\n\033[1mSTANDING\033[0m — read STATUS.md for direction, open questions and decisions.\n\n'
