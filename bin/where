@@ -2,7 +2,24 @@
 # Where are we? Computed fresh — nothing here is maintained by hand.
 set -uo pipefail
 OWNER=ArianKalantari1
-gh_api() { curl -sS -H "Authorization: Bearer ${GITHUB_TOKEN:-$GH_TOKEN}" \
+
+for cmd in curl jq; do
+  command -v "$cmd" >/dev/null || { echo "where: needs $cmd on PATH." >&2; exit 1; }
+done
+
+# Resolve a token without tripping `set -u`. Writing "${GITHUB_TOKEN:-$GH_TOKEN}"
+# looks like a fallback chain but expands $GH_TOKEN eagerly, so with neither set
+# the script dies on "GH_TOKEN: unbound variable" instead of saying what is wrong.
+TOKEN="${GITHUB_TOKEN:-${GH_TOKEN:-}}"
+if [ -z "$TOKEN" ] && command -v gh >/dev/null; then
+  TOKEN="$(gh auth token 2>/dev/null || true)"
+fi
+if [ -z "$TOKEN" ]; then
+  echo "where: no GitHub token. Set GITHUB_TOKEN, or run: gh auth login" >&2
+  exit 1
+fi
+
+gh_api() { curl -sS -H "Authorization: Bearer $TOKEN" \
   -H "Accept: application/vnd.github+json" "https://api.github.com/$1"; }
 
 printf '\n\033[1mOPEN PRs\033[0m\n'
