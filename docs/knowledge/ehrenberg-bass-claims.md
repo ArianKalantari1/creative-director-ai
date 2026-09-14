@@ -274,6 +274,9 @@ CEPs are the cues a buyer's memory reaches for in a buying situation — interna
 
 **This is where C1 connects to practice.** C1 says advertising works by building memory links that activate later; C11 is the method for deciding *which* links, and how to measure them over time.
 
+**Method document:** [Category Entry Points meeting method](methods/category-entry-points.md)
+turns this framework into a marked-source client session.
+
 ---
 
 ### C12 — Physical availability in B2B is a marketing problem
