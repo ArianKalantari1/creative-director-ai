@@ -4,7 +4,12 @@ Working repository for the **marketing intelligence + creative operating system*
 turning competitor and market advertising evidence into structured, reusable creative
 intelligence, and using it to produce *original* brand-specific creative — not clones.
 
-Status: **research and design only.** No implementation yet.
+**Start with [`STATUS.md`](STATUS.md)** — where the project is, what has been decided,
+what is still open, and what we already got wrong.
+
+Status: **building.** The extraction stack ships in
+[`senpai-reel`](https://github.com/ArianKalantari1/senpai-reel); this repository holds
+planning, issues, design docs and the knowledge layer.
 
 ## Repository layout
 
