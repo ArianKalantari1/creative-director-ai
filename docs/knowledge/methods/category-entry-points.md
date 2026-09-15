@@ -5,11 +5,18 @@
 (B2B) world*, July 2022.
 **Built on:** C1, C7 and C8 in [the Ehrenberg-Bass claims register](../ehrenberg-bass-claims.md).
 
-**Source discipline:** each step below is labelled as either **Sourced** or **Our
-operationalisation**. Sourced means it comes from Romaniuk's paper or from C1/C7/C8. Our
-operationalisation means it is Ari's working adaptation for a small-business, short-form-social
-meeting. The 60-minute meeting format and the printable worksheet are operational constraints
-from this project, not claims made by the paper.
+**The source paper is NOT held in this repository.** No PDF, no extracted text.
+Everything below attributed to Romaniuk was written without access to it, so the
+attributions are claims about the source, not checks against it. They must not be
+quoted to a client until someone with the paper has verified them.
+
+**Source discipline:** each step below is labelled **Sourced (verified)**,
+**Attributed — UNVERIFIED**, or **Our operationalisation**. *Sourced (verified)*
+means it was checked against C1/C7/C8 in this repo, which were extracted from PDFs
+directly. *Attributed — UNVERIFIED* means it is presented as coming from the paper
+but nobody has confirmed it. *Our operationalisation* is Ari's working adaptation for a
+small-business, short-form-social meeting. The 60-minute format and the printable
+worksheet are operational constraints from this project, not claims made by the paper.
 
 **Standing caveat:** the evidence base is B2B, and much of it is long-purchase-cycle B2B.
 Ari's clients are often small local businesses, and the delivery channel is short-form social.
@@ -21,7 +28,7 @@ carousel will cause sales.
 
 ## What a CEP is
 
-**Sourced:** A Category Entry Point is a cue that helps a buyer's memory retrieve possible
+**Attributed — UNVERIFIED:** A Category Entry Point is a cue that helps a buyer's memory retrieve possible
 brands when a buying situation starts. Cues can be internal, like a motive or emotion, and
 external, like a place, time, activity or person involved. The source paper's practical point is
 that brands can become easier to think of by repeatedly linking the brand to those situations.
@@ -58,7 +65,7 @@ Use this script:
 
 ### Elicit candidate situations
 
-**Sourced:** Romaniuk uses the W prompts to generate CEPs: when, where, while, with what, why,
+**Attributed — UNVERIFIED:** Romaniuk uses the W prompts to generate CEPs: when, where, while, with what, why,
 how feeling, and with or for whom. In B2B, she also distinguishes the business need from the
 decision-maker's professional or personal motive.
 
@@ -77,7 +84,7 @@ context.
 9. What makes the situation urgent enough that they stop ignoring it?
 10. Which situations are customers embarrassed, annoyed, anxious or relieved about?
 
-**Sourced:** The paper says CEPs can come from category buyers, marketers and, where available,
+**Attributed — UNVERIFIED:** The paper says CEPs can come from category buyers, marketers and, where available,
 sales teams. It also says the W prompts can be used in surveys or as brainstorming prompts.
 
 **Our operationalisation:** For Ari's clients, the owner interview is a substitute for a proper
@@ -104,9 +111,13 @@ Convert the answer back into a situation instead of accepting it as a CEP.
 
 ### Use elimination, not scoring
 
-**Sourced:** Romaniuk frames prioritisation as elimination. Remove poor choices so the viable
-opportunities remain. The paper uses the 3C forces: credibility, competitiveness and
-commonality/currency.
+**Attributed — UNVERIFIED:** Romaniuk frames prioritisation as elimination. Remove poor choices so the viable
+opportunities remain. The paper is said to use three "C" forces: credibility,
+competitiveness and commonality/currency.
+
+> The third term is written here as "commonality/currency" because the writer was
+> not certain which word the paper uses. That uncertainty is itself the reason this
+> whole section is UNVERIFIED. **Check this one first.**
 
 **Our operationalisation:** In this small-business meeting, do not create a made-up score. Ask
 the following questions and keep only candidates that survive discussion. If a threshold would
@@ -114,13 +125,13 @@ be useful here, no source in this repo supports one for this setting.
 
 | Filter | Source status | Question to ask |
 |---|---|---|
-| Credibility | Sourced | Can this business genuinely deliver for this situation now, and would customers believe that? |
-| Competitiveness | Sourced | Is this situation already a cluttered mental space where every competitor sounds the same? |
-| Commonality/currency | Sourced | Does this situation happen often enough, or create enough commercial value, to be worth building around? |
+| Credibility | Attributed — UNVERIFIED | Can this business genuinely deliver for this situation now, and would customers believe that? |
+| Competitiveness | Attributed — UNVERIFIED | Is this situation already a cluttered mental space where every competitor sounds the same? |
+| Commonality/currency | Attributed — UNVERIFIED | Does this situation happen often enough, or create enough commercial value, to be worth building around? |
 | Content fit | Our operationalisation | Can we show or explain this situation in short-form social without faking evidence or making the client sound generic? |
 | Distinctive branding | Our operationalisation from C8 | Can the content make the client's brand recognisable while talking about the situation? |
 
-**Sourced:** The paper gives a research-survey method for external credibility, including a
+**Attributed — UNVERIFIED:** The paper gives a research-survey method for external credibility, including a
 free-choice brand-by-CEP table and a plus-or-minus five percentage point classification band for
 mental advantage or disadvantage.
 
@@ -128,7 +139,7 @@ mental advantage or disadvantage.
 the survey. In a normal client direction meeting, write "survey not run" and treat credibility as
 a judgement call.
 
-**Sourced:** The paper names a "long-short list" of five to eight CEPs as the eventual messaging
+**Attributed — UNVERIFIED:** The paper names a "long-short list" of five to eight CEPs as the eventual messaging
 opportunities for a brand over time.
 
 **Our operationalisation:** Do not force five to eight in the meeting. That number belongs to
@@ -141,7 +152,7 @@ a working list of the situations that survive the filters and say explicitly tha
 
 ### Keep the situation and the brand together
 
-**Sourced:** The paper says brand associations are built when the buyer experiences the brand
+**Attributed — UNVERIFIED:** The paper says brand associations are built when the buyer experiences the brand
 and the source of the association together. It also says each execution should focus on one CEP,
 while the brand builds links to more CEPs over time.
 
@@ -181,7 +192,7 @@ findings.
 
 ### What the source can measure
 
-**Sourced:** Romaniuk's measurement approach uses customer memory data. The three Mental
+**Attributed — UNVERIFIED:** Romaniuk's measurement approach uses customer memory data. The three Mental
 Availability metrics are Mental Market Share, Mental Penetration and Network Size. These require
 a category-buyer survey where respondents can link brands to CEPs.
 
